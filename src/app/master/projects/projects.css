@@ -1,0 +1,64 @@
+/* my projects... */
+.title{
+    font-size:45px;
+    font-weight: 600;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 30px;
+  }
+  .carousel{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 0px;
+    padding: 0px 125px 0px 125px;
+    background-color: #ff0051ce;
+  } 
+  .card {
+    background: #333333;
+    height: 325px;
+    width: 348px;
+    border-radius: 6px;
+    margin: 160px 10px 40px 60px;
+    padding-top: 20px;
+    text-align: center;
+    overflow: hidden;
+    transition: all 0.3s ease;
+  }
+  
+  .card:hover {
+    background: #1e3551;
+  }
+  
+  .box {
+    margin-top: 20px;
+    transition: all 0.3s ease;
+  }
+  
+  .box:hover {
+    transform: scale(1.05);
+  }
+  
+  .text {
+    color: white;
+    font-size: 25px;
+    font-weight: 600;
+    margin: 10px 0 7px 0;
+  }
+  
+  .card img {
+    height: 150px;
+    width: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 5px solid #ffffff;
+    transition: all 0.3s ease;
+  }
+  
+  .projects .carousel .card:hover img {
+    border-color: #d7bcbc;
+  }
+  
+  .card p {
+    color: aliceblue;
+    text-align: center;
+  }
