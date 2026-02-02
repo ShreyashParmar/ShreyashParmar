@@ -6,11 +6,11 @@
     margin-top: 20px;
     margin-bottom: 30px;
   }
-  .carousel{
+  .sub-carousel{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-gap: 0px;
-    padding: 0px 125px 0px 125px;
+    padding: 85px 125px;
     background-color: #ff0051ce;
   } 
   .card {
@@ -18,8 +18,7 @@
     height: 325px;
     width: 348px;
     border-radius: 6px;
-    margin: 160px 10px 40px 60px;
-    padding-top: 20px;
+
     text-align: center;
     overflow: hidden;
     transition: all 0.3s ease;
