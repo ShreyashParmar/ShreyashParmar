@@ -1,0 +1,10 @@
+{
+  "routes": {
+    "/ShreyashParmar": {},
+    "/ShreyashParmar/about": {},
+    "/ShreyashParmar/contact": {},
+    "/ShreyashParmar/dashboard": {},
+    "/ShreyashParmar/projects": {},
+    "/ShreyashParmar/services": {}
+  }
+}
